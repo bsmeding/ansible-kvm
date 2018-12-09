@@ -42,7 +42,9 @@ kvm_config_storage_pools: false
 
 kvm_debian_packages:
   - 'bridge-utils'
-  - 'libvirt-bin'
+#  - 'libvirt-bin'
+  - 'libvirt-daemon-system'
+  - 'libvirt-clients'
   - 'lldpd'
   - 'python-libvirt'
   - 'python-lxml'
